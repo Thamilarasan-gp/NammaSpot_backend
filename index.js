@@ -36,7 +36,7 @@ app.use(cors());
 dotenv.config();
 app.use("/api/payment",paymentRoutes);
 
-mongoose.connect('mongodb://localhost:27017/Admindata', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://thamilprakasam2005:appichithamil@cluster0.qqwny.mongodb.net/Nammaspot', { useNewUrlParser: true, useUnifiedTopology: true });
 
 
 
